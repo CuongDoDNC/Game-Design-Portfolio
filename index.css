@@ -1,0 +1,79 @@
+.h5 {
+    font-family: "Roboto", sans-serif;
+}
+
+li {
+    list-style-type: none;
+    display: list-item;
+    justify-content: center;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.big-icon {
+    font-size: 40px;
+    color: rgb(102, 102, 102);
+}
+
+.big-icon:hover {
+    color: black;
+    transform: scale(1.2);
+    transition: all 0.3s ease;
+}
+
+.fontroboto {
+    font-family: "Roboto", sans-serif;
+}
+
+.fontsans {
+    font-family: "Sans-serif", sans-serif;
+}
+
+.fontmonsterat {
+    font-family: "Montserrat", sans-serif;
+}
+
+.section {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+.endsectionarea {
+    height: 20px;
+}
+
+tr {
+    border-style: none;
+}
+
+@media print {
+    * {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+}
+
+.container {
+    max-width: 1200px !important;
+}
+
+.accordion-button:hover {
+    background-color: #c8b27a;
+}
+
+.accordion-button {
+    --bs-accordion-btn-focus-border-color: none;
+    --bs-accordion-btn-focus-box-shadow: 0 0 0 0rem rgba(102, 102, 102, 0.4);
+    --bs-accordion-active-bg: #c8b27a; /* nền khi expand */
+    --bs-accordion-active-color: black; /* màu chữ khi expand */
+}
+
+img {
+    border-radius: 12px;
+}
+
+a:-webkit-any-link {
+    text-decoration: none !important;
+}
